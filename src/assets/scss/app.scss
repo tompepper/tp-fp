@@ -6,8 +6,8 @@
 @import 'motion-ui';
 
 @include foundation-global-styles;
-//@include foundation-grid;
-//@include foundation-flex-grid;
+@include foundation-grid;
+@include foundation-flex-grid;
 
 @include foundation-xy-grid-classes;
 @include foundation-typography;
@@ -57,6 +57,10 @@
   My custom styles:
   Add your scss files below to structure your project styles
 */
+
+//Custom overrides
+@import "tp-global/tp-header";
+@import "tp-global/tp-page-full-width";
 
 // Global
 @import "global/accessibility";
