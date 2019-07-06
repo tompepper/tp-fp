@@ -61,6 +61,11 @@
 //Custom overrides
 @import "tp-global/tp-header";
 @import "tp-global/tp-page-full-width";
+@import "tp-global/tp-typography";
+@import "tp-global/tp-responsive-menu";
+
+//Typography
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
 // Global
 @import "global/accessibility";
