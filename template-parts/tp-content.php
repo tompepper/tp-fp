@@ -26,7 +26,7 @@
 				</header>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-					<div class="cell small-12 entry-content">
+					<div class="cell small-12 entry-content tp-body-p">
 						<?php the_content(); ?>
 					</div>
 				</article>
@@ -44,7 +44,7 @@
 				<?php endwhile; ?>
 				<?php wp_reset_postdata(); ?>
 
-				<footer>
+				<footer class="tp-body-p">
 					<h4 style="margin-bottom: 2.5em;" class="tp-header-marker">End of the line, pal</h4>
 					<p style="text-align: center;">I do other stuff besides paint<br>
 						For design services visit <a href="http://tompepper.design">tompepper.design</a></p>

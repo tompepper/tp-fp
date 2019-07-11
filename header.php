@@ -44,6 +44,6 @@
 				</div>
 			</div>
 		</nav>
-		<script src="/foundation-v1/wp-content/themes/foundationpress/node_modules/infinite-scroll/dist/infinite-scroll.pkgd.min.js"></script>
+		<script src="/foundation-v1/wp-content/themes/FoundationPress/node_modules/infinite-scroll/dist/infinite-scroll.pkgd.min.js"></script>
 
 	</header>
