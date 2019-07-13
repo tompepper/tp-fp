@@ -9,9 +9,30 @@
  */
 ?>
 
-<footer class="footer-container">
-	<div class="footer-grid">
-		<?php dynamic_sidebar( 'footer-widgets' ); ?>
+<footer class="footer-container" style="padding:4em 1em;">
+	<div class="grid-x">
+	<div class="cell small-12 medium-8 tp-body-p">
+		<p>I do other stuff besides paint<br>
+		For design services visit <a href="http://tompepper.design">tompepper.design</a></p>
+	</div>
+	<div class="cell small-8 medium-4">
+		<div class="grid-x grid-padding-x tp-social-links">
+			<div class="cell small-2">
+				<a class="social-instagram" target="_BLANK" href="https://instagram.com/tompepper">&nbsp;</a>
+			</div>
+			<div class="cell small-2">
+				<a class="social-twitch" target="_BLANK" href="https://twitch.tv/tompeppre">&nbsp;</a>
+			</div>
+			<div class="cell small-2">
+				<a class="social-twitter" target="_BLANK" href="https://twitter.com/tompeppre">&nbsp;</a>
+			</div>
+			<div class="cell small-2">
+				<a class="social-discord" target="_BLANK" href="https://discord.gg/tQfeGtt">&nbsp;</a>
+			</div>
+			<div class="cell small-2">
+				<a class="social-patreon" target="_BLANK" href="https://www.patreon.com/tompepper">&nbsp;</a>
+			</div>
+		</div>
 	</div>
 </footer>
 
