@@ -1,0 +1,27 @@
+.tp-header-marker {
+  line-height: 1;
+  font-family: $header-font-family;
+  text-align: center;
+  @include breakpoint(large up) {
+    font-size:2.75em
+  }
+  @include breakpoint(medium down) {
+    font-size: 1.75em;
+  }
+}
+
+.tp-body-p {
+  p {
+    font-family: $tp-paragraph-font-family;
+    line-height: 1.625;
+    letter-spacing: -.4px;
+    font-weight: 400;
+    font-size: 1.25em;
+  }
+  a {
+    color: #ff8674;
+    &:hover {
+      color: #a52410 !important;
+    }
+  }
+}
